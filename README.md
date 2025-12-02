@@ -1,17 +1,35 @@
-# mobile_app
+#Travel Guide App
 
-A new Flutter project.
+A Flutter mobile application that helps users explore famous places in Egypt.  
+It includes a splash screen, login page, home page with a list of places, details page, favorites, and settings.
+
+---
+
+## Features
+
+- **Splash Screen**: Intro screen with app logo.
+- **Login Page**: Simple login form (email + password).
+- **Home Page**: Grid view of places with search functionality.
+- **Details Page**: Shows description, image, rating, and option to add/remove from favorites.
+- **Favorites Page**: Displays all places marked as favorite.
+- **Settings Page**: Toggle dark/light theme preview and change language.
+- **Data**: 20 famous places in Egypt (you can add your own images in `assets/images`).
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Install [Flutter SDK](https://docs.flutter.dev/get-started/install).
+- Install VS Code or Android Studio with Flutter & Dart plugins.
+- Emulator or physical device connected.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# mobile_project
+```bash
+git clone <repo-url>
+cd travel_guide
+flutter pub get
+flutter run
+```
