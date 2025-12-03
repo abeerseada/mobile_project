@@ -1,4 +1,4 @@
-#Travel Guide App
+# Travel Guide App
 
 A Flutter mobile application that helps users explore famous places in Egypt.  
 It includes a splash screen, login page, home page with a list of places, details page, favorites, and settings.
